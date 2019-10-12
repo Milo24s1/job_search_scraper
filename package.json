@@ -1,0 +1,22 @@
+{
+  "name": "cmpm",
+  "version": "1.0.0",
+  "description": "script to extract download links from FM Derana Chooti Malli Podi Malli programme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "csvtojson": "^2.0.10",
+    "html-entities": "^1.2.1",
+    "moment": "^2.23.0",
+    "nodemailer": "^6.3.0",
+    "request": "^2.88.0",
+    "to-csv": "^0.1.1",
+    "urlencode": "^1.1.0",
+    "utf8": "^3.0.0"
+  }
+}
