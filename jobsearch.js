@@ -35,7 +35,7 @@ async function run() {
 //'jobs@mudjobs.com',
     const mailOptions = {
         senderEmail:`nodedevloper@gmail.com`,
-        customReceivers:['jobs@mudjobs.com','na5703hansitha@gmail.com'],
+        customReceivers:['na5703hansitha@gmail.com'],
         subject: `Job Search(Drilling Fluids) - Daily Report ${systemDate}`,
         isAttachmentAvailable:false
     };
