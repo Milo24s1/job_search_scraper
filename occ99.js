@@ -233,7 +233,7 @@ function processCsvData(csvDataInput){
     const mailOptions = {
         senderEmail:`nodedevloper@gmail.com`,
         customReceivers:['jobs@mudjobs.com','na5703hansitha@gmail.com'],
-        subject: `Halliburton - Daily Report ${systemDate}`,
+        subject: `Oc99 - Daily Report ${systemDate}`,
         isAttachmentAvailable:false
     };
 
@@ -243,7 +243,7 @@ function processCsvData(csvDataInput){
 
         mailOptions.isAttachmentAvailable = true;
         mailOptions.csvData = csvData;
-        mailOptions.filename = `halliburton_search_result_${systemDate}.csv`;
+        mailOptions.filename = `oc99_search_result_${systemDate}.csv`;
         mailOptions.html = `<h3>See latest search results</h3>`;
 
         try {
