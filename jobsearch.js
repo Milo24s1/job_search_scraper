@@ -11,7 +11,7 @@ if(process.argv.length>3){
 }
 
 async function run() {
-    const sites = ['rigzone','newpark','halliburton','oc99'];
+    const sites = ['rigzone','newpark','halliburton','oc99','wtsenergy'];
     let emailBody = ``;
     let combinedSearchResultArray = [];
     for (let site of sites){

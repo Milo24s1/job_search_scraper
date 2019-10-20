@@ -1,7 +1,7 @@
 {
   "name": "cmpm",
   "version": "1.0.0",
-  "description": "script to extract download links from FM Derana Chooti Malli Podi Malli programme",
+  "description": "script to extract job search result from vairous pages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
