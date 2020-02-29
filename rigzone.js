@@ -60,12 +60,20 @@ function run() {
 }
 
 function searchJobRecords(pageNumber) {
-    loginPostOptions.form = getSearchParameters();
-    loginPostOptions.form["SearchCriteria.CurrentPage"] = pageNumber;
+
+
+    if(pageNumber==1){
+        loginGetOptions.url = 'https://www.rigzone.com/oil/jobs/search/?skill=564';
+    }
+    else {
+        loginGetOptions.url  = 'https://www.rigzone.com/oil/jobs/search/?skill=564&page='+pageNumber;
+    }
+
+
 
     return new Promise(resolve => {
         try {
-            request.post(loginPostOptions,(err,response,html)=>{
+            request.post(loginGetOptions,(err,response,html)=>{
                 if(err){
                     console.log('post error '+e);
                     resolve([]);
